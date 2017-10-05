@@ -1,0 +1,16 @@
+start with the last 2 digits
+
+Z: consider the current digits
+either  A: a swap can be made
+or      B: a swap cannot be made
+
+A: make the swap, construct the final number
+  increase the highest place value digit by the least amount available
+  fill in remaining numbers to make the final answer as small as possible
+
+
+B: try to incorporate another digit
+either B1: a digit is available for incorporation
+           incorporate the digit, return to Z:
+or     B2: no digits remain
+           no swap possible, final answer
